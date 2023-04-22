@@ -1,0 +1,243 @@
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.navbar-brand{
+    font-size: 40px;
+    color: white;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 5PX;
+}
+
+.nav-link:hover{
+    color: white;
+    border-bottom: 3PX solid white;
+    transition: all 1s;
+}
+
+
+
+
+
+.the1{
+    font-weight: 800;
+
+}
+
+
+
+
+
+/*  */
+
+/* section 1 animation */
+
+.dddd::after{
+    content: "";
+    animation: typing 3s infinite;
+    
+}
+@keyframes typing {
+    0%{
+        content: "g|" ;
+    }
+
+    20%{
+        content: "gr|" ;
+    }
+    25%{
+        content: "phic|";
+    }
+
+    40%{
+        content: "gra|";
+    }
+
+    60%{
+        content: "d|";
+    }
+
+    65%{
+        content: "d|";
+    }
+
+    70%{
+        content: "des|";
+    }
+
+    80%{
+        content: "design|";
+    }
+
+    100%{
+        content: "designer|";
+    }
+}
+
+/*  end section 1 animation */
+
+
+
+
+/* setion 2  */
+
+    .s1{
+        margin: 50px;
+    }
+
+.bord span{
+
+    border-bottom: 3px solid #0078ff;
+}
+
+.bord2 span{
+    border-bottom: 4px solid #0078ff;
+
+}
+
+/* end setion 2  */
+
+
+
+
+/* header  */
+
+
+.header{
+    background-image: url(../image2/intro-bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.layar{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 0.6;
+    z-index: 2;
+}
+
+.header .row h1{
+    z-index: 3;
+}
+
+/* end header */
+
+
+.test
+{
+    background-color: #0078ff;
+    display: inline-block;
+}
+
+
+/* icons in sevres */
+
+i:hover {
+    color: #0078ff;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+.asdf{
+    position: absolute; 
+    top: 215;
+    left: 120;
+    bottom: 50;
+}
+
+
+.bg{
+    background-image: url(../image2/counters-bg.jpg);
+    background-position: center center;
+}
+
+.layar22{
+    background-color: rgba(0, 120, 255, 0.7);
+    padding: 30px;
+}
+
+
+.bgs233{
+    background-image: url(../image2/overlay-bg.jpg);
+}
+
+
+
+
+
+
+
+
+
+/* portfilo */
+
+
+.sy{
+    color: #0078ff ;
+
+}
+
+
+.zzz:hover{
+    transform: scale(1.1);
+    transition: all 1.1s ;
+}
+
+
+
+.gh:hover{
+    color: #0078ff;
+    transition: all 0.5s ;
+}
+
+
+small span:hover{
+    color: #0078ff ;
+    transition: all 0.5s ;
+}
+
+
+
+
+
+
+
+
+
+
+/* foter */
+
+.gs span{
+    border-bottom: 3px solid #0078ff;
+}
+
+
+
+
+
+
+
+
+/* foterr  */
+
+
+.and{
+    border-radius: 2px;
+    border: 4px solid #0078ff;
+}
+
+
+
+
+/* end */
